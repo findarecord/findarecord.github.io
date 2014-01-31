@@ -3,8 +3,9 @@ layout: default
 title: welcome
 ---
 
-#Welcome
+# Welcome
 
+Welcome to the documentation site for Find-A-Record.
 
-## Documentation
-[API Documentation](api/index)
+* [APIs](/api/index)
+* [SDKs](/sdk/index)
