@@ -27,7 +27,7 @@ Authentication is done via 2 URL parameters, `user_id` and `key`. Every endpoint
 To obtain development or production credentials, contact Find-A-Record.
 
 ## Response HTTP Status Codes
-We use standard HTTP status codes when responding to a request. The actual request's status code will always match the Return Object's code (See below). This means that you will get a 404 NOT FOUND from an API endpoint when the requested information is not found. Please note that the JSON return object is always returned, even for non-200 HTTP status codes.
+We use standard HTTP status codes when responding to a request. The actual response's status code will always match the Return Object's code (See below). This means that you will get a 404 NOT FOUND from an API endpoint when the requested information is not found. Please note that the JSON return object is always returned, even for non-200 HTTP status codes.
 
 ## Response Return Object
 The following JSON object is always returned.
@@ -61,7 +61,7 @@ The following JSON object is always returned.
 [Docs](places) - Retrieve information about places.
 
 ## Repos
-[Docs](places) - Retrieve information about repositories.
+[Docs](repos) - Retrieve information about repositories.
 
 # Other API Sections
 
