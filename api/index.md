@@ -40,11 +40,11 @@ The following JSON object is always returned.
   "data":{}
 }
 ````
-`code` - An HTTP status code. Will always be an integer.
-`messages` - An array of message strings.
-`timestamp` - A timestamp of when the request was received by our servers (UTC). It is the output of Javascript Date.now();
-`duration` - The total time spent in milliseconds processing the request on our servers. It does not include time for DNS lookup, connection, Receiving, or Sending.
-`data` - The data returned. See the documentation below.
+* `code` - An HTTP status code. Will always be an integer.
+* `messages` - An array of message strings.
+* `timestamp` - A timestamp of when the request was received by our servers (UTC). It is the output of Javascript Date.now();
+* `duration` - The total time spent in milliseconds processing the request on our servers. It does not include time for DNS lookup, connection, Receiving, or Sending.
+* `data` - The data returned. See the documentation below.
 
 # API Sections
 
