@@ -5,4 +5,6 @@ title: welcome
 
 #Welcome
 
-Developer docs content here.
+
+## Documentation
+[API Documentation](api/index)
