@@ -6,7 +6,7 @@ title: status
 # Status
 Show the status of the Find-A-Record API.
 
-## GET /status
+## GET /v0/status
 
 ### Parameters
 (none)
@@ -14,7 +14,7 @@ Show the status of the Find-A-Record API.
 ### Example
 
 `REQUEST`
-> GET /status HTTP/1.1
+> GET /v0/status HTTP/1.1
 
 `RESPONSE`
 > 200 (OK)
