@@ -51,14 +51,11 @@ The following JSON object is always returned as the body.
 ## Status
 [Docs](status) - A basic status endpoint.
 
-## Search
-[Docs](search) - A set of search endpoints (collections, places, etc).
-
 ## Collections
-[Docs](collections) - Retrieve information about collections.
+[Docs](collections) - Retrieve and search collections.
 
 ## Places
-[Docs](places) - Retrieve information about places.
+[Docs](places) - Retrieve and search places.
 
 ## Repositories
 [Docs](repositories) - Retrieve information about repositories.
