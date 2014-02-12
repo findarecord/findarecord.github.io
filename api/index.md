@@ -10,12 +10,12 @@ The public api lives at https://api.findarecord.com. This is the same API used b
 The Find-A-Record API is REST-ish in nature, and is divided into several sections. The URL is structured as follows
 ````
 [https://][api.findarecord.com]/[v0]/[section]/[section-specific]
-    |               |           |      |        |
-    |               |           |      |        +- Everything here and beyond is specific to each section.
-    |               |           |      |
-    |               |           |      +- The section of the API (collections, search, etc...)
-    |               |           |
-    |               |           +- The API version (Currently at v0)
+    |               |            |       |        |
+    |               |            |       |        +- Everything here and beyond is specific to each section.
+    |               |            |       |
+    |               |            |       +- The section of the API (collections, search, etc...)
+    |               |            |
+    |               |            +- The API version (Currently at v0)
     |               |
     |               +- The base URL
     |
@@ -60,8 +60,8 @@ The following JSON object is always returned as the body.
 ## Places
 [Docs](places) - Retrieve information about places.
 
-## Repos
-[Docs](repos) - Retrieve information about repositories.
+## Repositories
+[Docs](repositories) - Retrieve information about repositories.
 
 # Other API Sections
 
