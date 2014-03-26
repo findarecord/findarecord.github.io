@@ -218,17 +218,18 @@ em {
 
 table {
   width: 100%;
-  border: 1px solid #ebebeb;
 }
 
 th {
-  font-weight: 500;
+  font-weight: bold;
+  padding: 2px 8px;
 }
 
 td {
-  border: 1px solid #ebebeb;
+  border-top: 1px solid #999999;
   text-align: center; 
   font-weight: 300;
+  padding: 2px 8px;
 }
 
 form {
