@@ -12,10 +12,12 @@ This is where you call Find-A-Record's APIs and display the information in your 
 ## Web Integration
 This is where you forward your user over to the search page at [findarecord.com/search](https://www.findarecord.com/search). You can prefill all of the parameters by setting the appropriate variables in the URL Hash
 
-### Hash variables
+### Hash Parameters
 
-* `s` - place name string
-* `lat` - latitude
-* `lon` - longitude
-* `r` - radius in meters; defaults to "10000"
-* `t` - comma separated list of "tags" (record types); for example: "birth,death" or just "birth"; defaults to "birth,marriage,death"
+| parameter  | default | description |
+| ------------- | ------------- | -------------- |
+| `s` | | place name string |
+| `lat` |  | latitude |
+| `lat` |  | longitude |
+| `r` | `10000` | radius in meters |
+| `t` | `birth,marriage,death` | comma separate list of record types (tags) |
