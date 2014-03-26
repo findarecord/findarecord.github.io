@@ -17,7 +17,7 @@ This is where you forward your user over to the search page at [findarecord.com/
 | parameter  | default | description |
 | ------------- | ------------- | -------------- |
 | `s` | | place name string |
-| `lat` |  | latitude |
-| `lat` |  | longitude |
+| `lat` | user's IP location | latitude |
+| `lat` | user's IP location | longitude |
 | `r` | `10000` | radius in meters |
 | `t` | `birth,marriage,death` | comma separate list of record types (tags) |
