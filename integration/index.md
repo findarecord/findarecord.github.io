@@ -21,3 +21,5 @@ This is where you forward your user over to the search page at [findarecord.com/
 | `lat` | User's IP location | Latitude. |
 | `r` | `10000` | Search radius in meters. |
 | `t` | `birth,marriage,death` | Comma separate list of record types (tags). |
+| `from` | | Only include collections that cover years including or after this year. |
+| `to` | | Only include collections that cover years including or before this year. |
