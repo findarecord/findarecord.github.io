@@ -25,20 +25,23 @@ Retrieve a repository
 {
     "code": 200,
     "messages": [],
-    "timestamp": 1392228197113,
-    "duration": 10,
+    "timestamp": 1395853059585,
+    "duration": 6,
     "data": {
-        "name": "FamilySearch Digital Collections",
+        "name": "FamilySearch",
         "free": true,
         "online": true,
         "coordinates": null,
         "url": "https://familysearch.org/",
         "description": "",
+        "url_template": "https://familysearch.org/search/collection/{{id}}",
         "payload_template": "Search this database online at <a target=\"_blank\" href=\"https://familysearch.org/search/collection/{{id}}\">familysearch.org</a>",
         "payload_descr": {
             "id": "FS collection id"
         },
-        "contact_info": {}
+        "contact_info": {},
+        "sources": 1711,
+        "collections": 934
     }
 }
 ````
