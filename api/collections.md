@@ -111,6 +111,8 @@ Search for collections using a geojson (passed in via body)
 * `from` (Default -9999) - Return collections no earlier than from. `Int` between -9999 (inclusive) and 9999 (inclusive), but smaller than `to`.
 * `to` (Default 9999) - Return collections no later than to. `Int` between -9999 (inclusive) and 9999 (inclusive), but larger than `from`.
 * `tags` (Default "") - What to filter on. `String` of comma separated tags (Valid tags are `birth`,`marriage`,`death`,`census`,`misc`).
+* `online` (Default "") - Return collections from only either online or offline repositories. `String` of either `true` or `false`. When parameter is unset, collections from both online and offline repositories are returned.
+* `free` (Default "") - Return collections from only either free or paid repositories. `String` of either `true` or `false`. When parameter is unset, collections from both free and paid repositories are returned.
 * `count` (Default 10) - The number of restuls to return. `Int` between 1 (inclusive) and 100 (inclusive).
 * `offset` (Default 0) - The number of results to skip. `Int` greather than or equal to 0.
 * `return_repos` (Default false) - If present, repository information will be returned as well
