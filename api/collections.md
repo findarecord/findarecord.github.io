@@ -111,7 +111,7 @@ Search for collections within a given radius of a point
 
 * `lat` (required) - Latitude of the center of the search circle
 * `lon` (required) - Longitude of the center of the search circle
-* `radius` (Default 10000) - Radius in kilometers (km) of the search circle
+* `radius` (Default 10000) - Radius in meters (m) of the search circle
 * `from` (Default -9999) - Return collections no earlier than from. `Int` between -9999 (inclusive) and 9999 (inclusive), but smaller than `to`.
 * `to` (Default 9999) - Return collections no later than to. `Int` between -9999 (inclusive) and 9999 (inclusive), but larger than `from`.
 * `tags` (Default "") - What to filter on. `String` of comma separated tags (Valid tags are `birth`,`marriage`,`death`,`census`,`misc`).
